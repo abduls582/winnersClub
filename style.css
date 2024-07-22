@@ -2,7 +2,8 @@
   position: relative;
   width: 100%;
   height: 600px;
-  background: linear-gradient(45deg, #ff4500, #ff8c00);
+
+  background:url("/assets/slide/slidevideo.mp4")
 }
 
 .video-section {
@@ -18,6 +19,18 @@
   object-fit: cover;
 }
 .video_box2 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.video_box4 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.video_box55 {
   position: absolute;
   width: 100%;
   height: 100vh;
@@ -128,9 +141,6 @@
   color: white;
 }
 .sect_55_bg {
-  background-image: url("./assets/background.png");
-  background-size: cover;
-  background-position: center;
   height: 600px;
   display: flex;
   align-items: center;
@@ -160,7 +170,7 @@
   background-image: url("./assets/background.png");
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -353,9 +363,9 @@
   color: #00ff00;
 }
 .image-box {
-  position: absolute;
+  /* position: absolute; */
   top: 20%;
-  left: 50%;
+  /* left: 50%; */
   transform: translate(-50%);
 }
 
@@ -416,10 +426,10 @@
 }
 
 .sect_6_bg {
-  /* background-image: url("./assets/background.png"); */
   background-size: cover;
   background-position: center;
   height: 100vh;
+  /* top: 30px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -488,6 +498,9 @@
   transform: scale(1.1);
 }
 
+.banner_caption_55 {
+  position: relative;
+}
 @keyframes heartbeat {
   from {
     transform: scale(1);
@@ -504,7 +517,7 @@
   .sect_4_bg {
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 30vh;
     /* top: 30px; */
     display: flex;
     align-items: center;
@@ -557,7 +570,7 @@
   .sect_55_bg {
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    height: 119vh;
     /* top: 30px; */
     display: flex;
     align-items: center;
@@ -578,6 +591,9 @@
     position: relative;
     color: white;
   }
+  .banner_caption_55 {
+    position: relative;
+}
   .image-box img {
     width: 300px;
   }
@@ -618,9 +634,21 @@
   .video_box2 {
     position: absolute;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     object-fit: cover;
-  }
+}
+.video_box4{
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+  .video_box55 {
+    position: absolute;
+    width: 100%;
+    height: 119vh;
+    object-fit: cover;
+}
   .video_box6 {
     position: absolute;
     width: 100%;
@@ -630,14 +658,14 @@
   .video_box3 {
     position: absolute;
     width: 100%;
-    height: 111vh;
+    height: 85vh;
     object-fit: cover;
   }
   .banner_new {
     background: black;
     background-size: cover;
     background-position: center;
-    height: 128vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
